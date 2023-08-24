@@ -12,6 +12,10 @@ buildscript {
     }
 }
 
+hello {
+    System.out.println("Changes Made");
+}
+
 allprojects {
     repositories {
         google()
